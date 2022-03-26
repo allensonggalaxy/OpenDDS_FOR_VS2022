@@ -1,0 +1,11 @@
+// $Id$
+
+// Test.idl
+
+interface Messenger
+{
+  boolean send_message ( in    string user_name,
+                         in    string subject,
+                         inout string message );
+
+};

@@ -1,0 +1,16 @@
+﻿  Invoking ""..\..\..\bin\tao_idl" on ExceptionHolder.pidl"
+  tao-idli_Gs2oak.cpp
+  Invoking ""..\..\..\bin\tao_idl" on Messaging.pidl"
+  tao-idli_q59PVf.cpp
+  Invoking ""..\..\..\bin\tao_idl" on Messaging_No_Impl.pidl"
+  tao-idli_Z5uD9K.cpp
+  Invoking ""..\..\..\bin\tao_idl" on Messaging_RT_Policy.pidl"
+  tao-idli_bmsL75.cpp
+  Invoking ""..\..\..\bin\tao_idl" on Messaging_SyncScope_Policy.pidl"
+  tao-idli_WdsCHu.cpp
+  Invoking ""..\..\..\bin\tao_idl" on Messaging_Types.pidl"
+  tao-idli_cZvAlJ.cpp
+  Invoking ""..\..\..\bin\tao_idl" on Pollable.pidl"
+  tao-idli_WgBy0V.cpp
+  Invoking ""..\..\..\bin\tao_idl" on TAO_Ext.pidl"
+  tao-idli_BIystv.cpp

@@ -1,0 +1,5 @@
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\BIDIR_GIOP\BIDIRPOLICY.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Sa -St -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -Sa -St -Wb,stub_export_macro=TAO_BIDIRGIOP_Export -Wb,stub_export_include=tao/BiDir_GIOP/bidirgiop_export.h -Wb,stub_export_file=bidirgiop_export.h -Wb,include_guard=TAO_BIDIRGIOP_SAFE_INCLUDE -Wb,safe_include=tao/BiDir_GIOP/BiDirGIOP.h -iC BiDir_GIOP -Gxhst "BiDirPolicy.pidl""
+endlocal

@@ -1,0 +1,10 @@
+﻿  ImR_Client.cpp
+  ImplRepoC.cpp
+  ImplRepoS.cpp
+  ServerObjectA.cpp
+  ServerObjectC.cpp
+  ServerObjectS.cpp
+  ServerObject_i.cpp
+  正在生成代码...
+    正在创建库 ..\..\..\lib\TAO_ImR_Clientd.lib 和对象 ..\..\..\lib\TAO_ImR_Clientd.exp
+  ImR_Client.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\ace_wrappers\lib\TAO_ImR_Clientd.dll

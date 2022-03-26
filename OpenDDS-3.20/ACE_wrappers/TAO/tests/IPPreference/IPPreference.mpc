@@ -1,0 +1,11 @@
+// -*- MPC -*-
+// $Id$
+
+
+project: taoclient, ipv6 {
+  exename = test
+
+  Source_Files {
+    test.cpp
+  }
+}

@@ -1,0 +1,36 @@
+﻿  Invoking ""..\..\..\bin\tao_idl" on AdapterActivator.pidl"
+  tao-idli_nVJSQm.cpp
+  Invoking ""..\..\..\bin\tao_idl" on ForwardRequest.pidl"
+  tao-idli_0LnJc8.cpp
+  Invoking ""..\..\..\bin\tao_idl" on IdAssignmentPolicy.pidl"
+  tao-idli_gJeW6J.cpp
+  Invoking ""..\..\..\bin\tao_idl" on IdUniquenessPolicy.pidl"
+  tao-idli_7uIBrs.cpp
+  Invoking ""..\..\..\bin\tao_idl" on ImplicitActivationPolicy.pidl"
+  tao-idli_SjYFqn.cpp
+  Invoking ""..\..\..\bin\tao_idl" on LifespanPolicy.pidl"
+  tao-idli_MAlOUy.cpp
+  Invoking ""..\..\..\bin\tao_idl" on POA.pidl"
+  tao-idli_bRpYhW.cpp
+  Invoking ""..\..\..\bin\tao_idl" on POAManager.pidl"
+  tao-idli_SX34m8.cpp
+  Invoking ""..\..\..\bin\tao_idl" on POAManagerFactory.pidl"
+  tao-idli_KhQu3A.cpp
+  Invoking ""..\..\..\bin\tao_idl" on PortableServer.pidl"
+  tao-idli_ijn55y.cpp
+  Invoking ""..\..\..\bin\tao_idl" on PortableServer_include.pidl"
+  tao-idli_PFNXOo.cpp
+  Invoking ""..\..\..\bin\tao_idl" on PS_Current.pidl"
+  tao-idli_B3BBEk.cpp
+  Invoking ""..\..\..\bin\tao_idl" on RequestProcessingPolicy.pidl"
+  tao-idli_TuBHJQ.cpp
+  Invoking ""..\..\..\bin\tao_idl" on ServantActivator.pidl"
+  tao-idli_c3jaI6.cpp
+  Invoking ""..\..\..\bin\tao_idl" on ServantLocator.pidl"
+  tao-idli_vZvYS5.cpp
+  Invoking ""..\..\..\bin\tao_idl" on ServantManager.pidl"
+  tao-idli_HLJUXe.cpp
+  Invoking ""..\..\..\bin\tao_idl" on ServantRetentionPolicy.pidl"
+  tao-idli_Vjuclw.cpp
+  Invoking ""..\..\..\bin\tao_idl" on ThreadPolicy.pidl"
+  tao-idli_vNLSlU.cpp

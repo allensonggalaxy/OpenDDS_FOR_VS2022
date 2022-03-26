@@ -1,0 +1,9 @@
+﻿  ConnectionSettings.cpp
+  Parser.cpp
+  QosSettings.cpp
+  TopicSettings.cpp
+  FaceTSS.cpp
+  StringManager.cpp
+  正在生成代码...
+    正在创建库 ..\..\lib\OpenDDS_FACEd.lib 和对象 ..\..\lib\OpenDDS_FACEd.exp
+  OpenDDS_FACE.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\lib\OpenDDS_FACEd.dll

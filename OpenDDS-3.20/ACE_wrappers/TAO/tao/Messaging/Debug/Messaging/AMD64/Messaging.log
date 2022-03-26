@@ -1,0 +1,36 @@
+﻿  AMH_Response_Handler.cpp
+  AMH_Skeletons.cpp
+  AMI_Arguments_Converter_Impl.cpp
+  Asynch_Invocation.cpp
+  Asynch_Invocation_Adapter.cpp
+  Asynch_Reply_Dispatcher.cpp
+  Asynch_Timeout_Handler.cpp
+  Buffering_Constraint_Policy.cpp
+  Connection_Timeout_Policy_i.cpp
+  ExceptionHolderA.cpp
+  ExceptionHolderC.cpp
+  ExceptionHolder_i.cpp
+  Messaging.cpp
+  MessagingA.cpp
+  MessagingC.cpp
+  MessagingS.cpp
+  Messaging_Loader.cpp
+  Messaging_No_ImplA.cpp
+  Messaging_No_ImplC.cpp
+  Messaging_ORBInitializer.cpp
+  正在生成代码...
+  正在编译...
+  Messaging_PolicyFactory.cpp
+  Messaging_Policy_i.cpp
+  Messaging_Queueing_Strategies.cpp
+  Messaging_RT_PolicyA.cpp
+  Messaging_RT_PolicyC.cpp
+  Messaging_SyncScope_PolicyA.cpp
+  Messaging_SyncScope_PolicyC.cpp
+  Messaging_TypesC.cpp
+  PollableC.cpp
+  TAO_ExtA.cpp
+  TAO_ExtC.cpp
+  正在生成代码...
+    正在创建库 ..\..\..\lib\TAO_Messagingd.lib 和对象 ..\..\..\lib\TAO_Messagingd.exp
+  Messaging.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\ace_wrappers\lib\TAO_Messagingd.dll

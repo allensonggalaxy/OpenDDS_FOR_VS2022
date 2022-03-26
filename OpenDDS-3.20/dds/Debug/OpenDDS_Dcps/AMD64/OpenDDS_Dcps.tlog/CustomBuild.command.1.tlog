@@ -1,0 +1,202 @@
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPS.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcps.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSCONDITIONSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsConditionSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSCORETYPESUPPORT.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsCoreTypeSupport.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSDATAREADERSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsDataReaderSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSDOMAIN.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsDomain.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSGUIDTYPESUPPORT.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsGuidTypeSupport.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSINFRASTRUCTURETYPESUPPORT.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsInfrastructureTypeSupport.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSPUBLICATION.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsPublication.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSSUBSCRIPTION.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsSubscription.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSSUBSCRIPTIONEXT.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsSubscriptionExt.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSTOPIC.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsTopic.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSTYPESUPPORTEXT.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsTypeSupportExt.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\OPENDDSDCPSEXTTYPESUPPORT.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "OpenddsDcpsExtTypeSupport.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\BOOLEANSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\BooleanSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\CHARSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\CharSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\DOUBLESEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\DoubleSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\FLOATSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\FloatSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\INT8SEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\Int8Seq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\LONGDOUBLESEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\LongDoubleSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\LONGLONGSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\LongLongSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\LONGSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\LongSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\OCTETSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\OctetSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\SHORTSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\ShortSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\STRINGSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\StringSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\UINT8SEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\UInt8Seq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\ULONGLONGSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\ULongLongSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\ULONGSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\ULongSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\USHORTSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\UShortSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\WCHARSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\WCharSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\CORBASEQ\WSTRINGSEQ.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+if not exist CorbaSeq mkdir CorbaSeq
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ "CorbaSeq\WStringSeq.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSCORE.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME "DdsDcpsCore.idl" && cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsCore.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSGUID.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME "DdsDcpsGuid.idl" && cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsGuid.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSINFOUTILS.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -SI "DdsDcpsInfoUtils.idl" && cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsInfoUtils.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSDCPSINFRASTRUCTURE.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME "DdsDcpsInfrastructure.idl" && cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsDcpsInfrastructure.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSSECURITYCORE.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -SI "DdsSecurityCore.idl" && cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsSecurityCore.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DDSSECURITYPARAMS.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME -SI "DdsSecurityParams.idl" && cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "DdsSecurityParams.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\OPENDDSDCPSEXT.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c "..\bin\opendds_idl -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_name=OPENDDS_VERSIONED_NAMESPACE_NAME "OpenddsDcpsExt.idl" && cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. "OpenddsDcpsExt.idl""
+endlocal

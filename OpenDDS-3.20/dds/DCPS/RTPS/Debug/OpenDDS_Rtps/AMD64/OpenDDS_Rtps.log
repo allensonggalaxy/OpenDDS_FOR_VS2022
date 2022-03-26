@@ -1,0 +1,30 @@
+﻿  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on RtpsSecurity.idl"
+  tao-idli_Z3BAL9.cpp
+  Invoking "..\..\..\bin\opendds_idl and "C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on RtpsCore.idl"
+  tao-idli_BN0R7S.cpp
+  tao-idli_fB3gTN.cpp
+  Invoking "..\..\..\bin\opendds_idl and "C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on RtpsRpc.idl"
+  tao-idli_YQXM7I.cpp
+  tao-idli_DRG3c0.cpp
+  BaseMessageUtils.cpp
+  GuidGenerator.cpp
+  AgentImpl.cpp
+  Checklist.cpp
+  EndpointManager.cpp
+  Ice.cpp
+  Stun.cpp
+  Task.cpp
+  Logging.cpp
+  ParameterListConverter.cpp
+  RtpsCoreC.cpp
+  RtpsCoreTypeSupportImpl.cpp
+  RtpsDiscovery.cpp
+  RtpsRpcC.cpp
+  RtpsRpcTypeSupportImpl.cpp
+  RtpsSecurityC.cpp
+  Sedp.cpp
+  Spdp.cpp
+  TypeLookup.cpp
+  正在生成代码...
+    正在创建库 ..\..\..\lib\OpenDDS_Rtpsd.lib 和对象 ..\..\..\lib\OpenDDS_Rtpsd.exp
+  OpenDDS_Rtps.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\lib\OpenDDS_Rtpsd.dll

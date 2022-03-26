@@ -1,0 +1,10 @@
+﻿  Invoking "..\..\..\bin\opendds_idl on Relay.idl"
+  tao-idli_klGBkn.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on RelayTypeSupport.idl"
+  tao-idli_qOGeHp.cpp
+  Name.cpp
+  RelayTypeSupportC.cpp
+  RelayTypeSupportImpl.cpp
+  正在生成代码...
+    正在创建库 ..\..\..\lib\OpenDDS_RtpsRelayd.lib 和对象 ..\..\..\lib\OpenDDS_RtpsRelayd.exp
+  RtpsRelayLib.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\lib\OpenDDS_RtpsRelayd.dll

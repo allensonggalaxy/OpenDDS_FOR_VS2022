@@ -1,0 +1,90 @@
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\ADAPTERACTIVATOR.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -GA -Sal -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "AdapterActivator.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\FORWARDREQUEST.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -GA -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "ForwardRequest.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\IDASSIGNMENTPOLICY.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -GA -Sal -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "IdAssignmentPolicy.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\IDUNIQUENESSPOLICY.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -GA -Sal -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "IdUniquenessPolicy.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\IMPLICITACTIVATIONPOLICY.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -GA -Sal -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "ImplicitActivationPolicy.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\LIFESPANPOLICY.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -GA -Sal -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "LifespanPolicy.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\POA.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "POA.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\POAMANAGER.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "POAManager.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\POAMANAGERFACTORY.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "POAManagerFactory.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\PORTABLESERVER.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Sa -St -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Sci -SS -Sorb -Sa -GX -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -Wb,include_guard=TAO_PORTABLESERVER_SAFE_INCLUDE -Wb,safe_include=tao/PortableServer/PortableServer.h -iC tao/PortableServer "PortableServer.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\PORTABLESERVER_INCLUDE.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Sa -St -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Sci -SS -Sorb -Sa -GX -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -Wb,unique_include=tao/PortableServer/PortableServer.h -iC tao/PortableServer "PortableServer_include.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\PS_CURRENT.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "PS_Current.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\REQUESTPROCESSINGPOLICY.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -GA -Sal -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "RequestProcessingPolicy.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\SERVANTACTIVATOR.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -GA -Sal -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "ServantActivator.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\SERVANTLOCATOR.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -GA -Sal -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "ServantLocator.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\SERVANTMANAGER.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -GA -Sal -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "ServantManager.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\SERVANTRETENTIONPOLICY.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -GA -Sal -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "ServantRetentionPolicy.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLESERVER\THREADPOLICY.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -Gp -Gd -Sci -SS -Sorb -GA -Sal -Wb,export_macro=TAO_PortableServer_Export -Wb,export_include=tao/PortableServer/portableserver_export.h -iC tao/PortableServer "ThreadPolicy.pidl""
+endlocal

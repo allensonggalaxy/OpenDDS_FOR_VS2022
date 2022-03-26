@@ -1,0 +1,15 @@
+﻿  DcpsInfo_pch.cpp
+  DCPSInfo_i.cpp
+  DCPS_IR_Domain.cpp
+  DCPS_IR_Participant.cpp
+  DCPS_IR_Publication.cpp
+  DCPS_IR_Subscription.cpp
+  DCPS_IR_Topic.cpp
+  DCPS_IR_Topic_Description.cpp
+  DomainParticipantListener_i.cpp
+  FederationId.cpp
+  PersistenceUpdater.cpp
+  UpdateManager.cpp
+  正在生成代码...
+    正在创建库 ..\..\lib\OpenDDS_InfoRepoLibd.lib 和对象 ..\..\lib\OpenDDS_InfoRepoLibd.exp
+  DCPSInfoRepo_Lib.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\lib\OpenDDS_InfoRepoLibd.dll

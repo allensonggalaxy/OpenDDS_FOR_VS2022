@@ -1,0 +1,185 @@
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\BOOLEANSEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "BooleanSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\CHARSEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "CharSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\CONV_FRAME.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "CONV_FRAME.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\CURRENT.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "Current.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\DOUBLESEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "DoubleSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\FLOATSEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "FloatSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\GIOP.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h "GIOP.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\IIOP.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "IIOP.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\IIOP_ENDPOINTS.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "IIOP_Endpoints.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\INT8SEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata --idl-version 4 "Int8Seq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\IOP.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "IOP.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\LONGDOUBLESEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "LongDoubleSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\LONGLONGSEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "LongLongSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\LONGSEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "LongSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\MESSAGING_POLICYVALUE.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "Messaging_PolicyValue.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\MESSAGING_SYNCSCOPE.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "Messaging_SyncScope.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\OBJECTIDLIST.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "ObjectIdList.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\OCTETSEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "OctetSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\ORB_TYPES.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "orb_types.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PARAMETERMODE.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Sat "ParameterMode.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PI_FORWARD.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "PI_Forward.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\POLICY.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -GT -oS PortableServer -Gd -Wb,safe_include=tao/PolicyC.h -Wb,skel_export_macro=TAO_PortableServer_Export -Wb,skel_export_include=tao/PortableServer/portableserver_export.h "Policy.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\POLICY_CURRENT.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "Policy_Current.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\POLICY_FORWARD.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Sa "Policy_Forward.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\POLICY_MANAGER.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "Policy_Manager.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PORTABLEINTERCEPTOR.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "PortableInterceptor.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\SERVICES.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "Services.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\SHORTSEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "ShortSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\STRINGSEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "StringSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\TAO.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "TAO.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\TIMEBASE.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci "TimeBase.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\UINT8SEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata --idl-version 4 "UInt8Seq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\ULONGLONGSEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "ULongLongSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\ULONGSEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "ULongSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\USHORTSEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "UShortSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\WCHARSEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "WCharSeq.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\WSTRINGSEQ.PIDL
+setlocal
+PATH=%PATH%;..\..\lib
+cmd /c ""..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I".." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sorb -GA -Gp -Gd -oA AnyTypeCode -Wb,export_macro=TAO_Export -Wb,export_include=tao/TAO_Export.h -Wb,anyop_export_macro=TAO_AnyTypeCode_Export -Wb,anyop_export_include=tao/AnyTypeCode/TAO_AnyTypeCode_Export.h -Sci -Gse -Gata "WStringSeq.pidl""
+endlocal

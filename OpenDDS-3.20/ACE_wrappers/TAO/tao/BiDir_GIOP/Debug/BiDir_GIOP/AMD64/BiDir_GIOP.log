@@ -1,0 +1,10 @@
+﻿  BiDirGIOP.cpp
+  BiDirPolicyC.cpp
+  BiDirPolicy_Validator.cpp
+  BiDir_ORBInitializer.cpp
+  BiDir_PolicyFactory.cpp
+  BiDir_Policy_i.cpp
+  BiDir_Service_Context_Handler.cpp
+  正在生成代码...
+    正在创建库 ..\..\..\lib\TAO_BiDirGIOPd.lib 和对象 ..\..\..\lib\TAO_BiDirGIOPd.exp
+  BiDir_GIOP.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\ace_wrappers\lib\TAO_BiDirGIOPd.dll

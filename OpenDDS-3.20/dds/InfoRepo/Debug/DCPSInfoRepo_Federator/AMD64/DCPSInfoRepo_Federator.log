@@ -1,0 +1,17 @@
+﻿  Invoking "..\..\bin\opendds_idl and "C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on Federator.idl"
+  tao-idli_vFQgFH.cpp
+  tao-idli_mwilIR.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on FederatorTypeSupport.idl"
+  tao-idli_KViSVD.cpp
+  FederatorC.cpp
+  FederatorConfig.cpp
+  FederatorManagerImpl.cpp
+  FederatorManagerImpl_updates.cpp
+  FederatorS.cpp
+  FederatorTypeSupportC.cpp
+  FederatorTypeSupportImpl.cpp
+  FederatorTypeSupportS.cpp
+  InfoRepoMulticastResponder.cpp
+  正在生成代码...
+    正在创建库 ..\..\lib\OpenDDS_Federatord.lib 和对象 ..\..\lib\OpenDDS_Federatord.exp
+  DCPSInfoRepo_Federator.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\lib\OpenDDS_Federatord.dll

@@ -1,0 +1,24 @@
+﻿  Invoking "..\..\bin\opendds_idl and "C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on monitor.idl"
+  tao-idli_1WtCyV.cpp
+  tao-idli_8vHoOU.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on monitorTypeSupport.idl"
+  tao-idli_1RAczH.cpp
+  DPMonitorImpl.cpp
+  DRMonitorImpl.cpp
+  DRPeriodicMonitorImpl.cpp
+  DWMonitorImpl.cpp
+  DWPeriodicMonitorImpl.cpp
+  MonitorFactoryImpl.cpp
+  PublisherMonitorImpl.cpp
+  SPMonitorImpl.cpp
+  SubscriberMonitorImpl.cpp
+  TopicMonitorImpl.cpp
+  TransportMonitorImpl.cpp
+  monitorC.cpp
+  monitorS.cpp
+  monitorTypeSupportC.cpp
+  monitorTypeSupportImpl.cpp
+  monitorTypeSupportS.cpp
+  正在生成代码...
+    正在创建库 ..\..\lib\OpenDDS_monitord.lib 和对象 ..\..\lib\OpenDDS_monitord.exp
+  OpenDDS_monitor.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\lib\OpenDDS_monitord.dll

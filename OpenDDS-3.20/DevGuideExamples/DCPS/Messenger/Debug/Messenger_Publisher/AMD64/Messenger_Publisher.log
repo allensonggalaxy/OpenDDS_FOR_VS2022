@@ -1,0 +1,13 @@
+﻿  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" and ..\..\..\bin\opendds_idl on Messenger.idl"
+  tao-idli_faihhc.cpp
+  tao-idli_Wg21Iu.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on MessengerTypeSupport.idl"
+  tao-idli_HZBfiG.cpp
+  MessengerC.cpp
+  MessengerS.cpp
+  MessengerTypeSupportC.cpp
+  MessengerTypeSupportImpl.cpp
+  MessengerTypeSupportS.cpp
+  Publisher.cpp
+  正在生成代码...
+  Messenger_Publisher.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\DevGuideExamples\DCPS\Messenger\publisher.exe

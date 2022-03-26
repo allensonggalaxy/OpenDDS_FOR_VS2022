@@ -1,0 +1,8 @@
+﻿  CDR_Encaps_Codec.cpp
+  CodecFactory.cpp
+  CodecFactory_impl.cpp
+  IOP_CodecC.cpp
+  IOP_Codec_includeC.cpp
+  正在生成代码...
+    正在创建库 ..\..\..\lib\TAO_CodecFactoryd.lib 和对象 ..\..\..\lib\TAO_CodecFactoryd.exp
+  CodecFactory.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\ace_wrappers\lib\TAO_CodecFactoryd.dll

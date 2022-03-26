@@ -1,0 +1,4 @@
+ACE_wrappers/TAO/orbsvcs/tests/Security/MT_IIOP_SSL/pvtkey.pem
+ACE_wrappers/TAO/orbsvcs/tests/Security/MT_IIOP_SSL/selfsigncert.pem
+ACE_wrappers/TAO/orbsvcs/tests/Security/MT_SSLIOP/pvtkey.pem
+ACE_wrappers/TAO/orbsvcs/tests/Security/MT_SSLIOP/selfsigncert.pem

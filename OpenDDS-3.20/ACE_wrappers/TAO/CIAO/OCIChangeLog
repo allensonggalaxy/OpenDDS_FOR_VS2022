@@ -1,0 +1,120 @@
+Thu Mar 17 19:32:04 UTC 2022  Fred Hornsey  <hornseyf@objectcomputing.com>
+
+        * CIAO version 1.2a_p23 released.
+
+Mon Nov 22 21:32:41 UTC 2021  Adam Mitz  <mitza@objectcomputing.com>
+
+        * CIAO version 1.2a_p22 released.
+
+Fri Jul 30 20:25:45 UTC 2021  Fred Hornsey  <hornseyf@objectcomputing.com>
+
+        * CIAO version 1.2a_p21 released.
+
+Thu Apr 29 21:44:41 UTC 2021  Adam Mitz  <mitza@objectcomputing.com>
+
+        * CIAO version 1.2a_p20 released.
+
+Thu Oct 29 14:06:27 UTC 2020  Adam Mitz  <mitza@objectcomputing.com>
+
+        * CIAO version 1.2a_p19 released.
+
+Wed Apr 22 15:28:21 UTC 2020  Adam Mitz  <mitza@objectcomputing.com>
+
+        * CIAO version 1.2a_p18 released.
+
+Wed Feb 19 21:03:31 UTC 2020  Adam Mitz  <mitza@objectcomputing.com>
+
+        * CIAO version 1.2a_p17 released.
+
+Mon Jul  1 15:44:17 UTC 2019  Chad Elliott  <elliottc@objectcomputing.com>
+
+        * CIAO version 1.2a_p16 released.
+
+Thu Aug 16 21:34:26 UTC 2018  Adam Mitz  <mitza@ociweb.com>
+
+        * CIAO version 1.2a_p15 released.
+
+Fri Jan 19 17:33:24 UTC 2018  Adam Mitz  <mitza@ociweb.com>
+
+        * CIAO version 1.2a_p14 released.
+
+Fri Dec  1 19:38:14 UTC 2017  Adam Mitz  <mitza@objectcomputing.com>
+
+        * CIAO version 1.2a_p13 released.
+
+Fri May 12 15:14:26 UTC 2017  Phil Mesnier  <mesnierp@ociweb.com>
+
+        * CIAO version 1.2a_p12 released.
+
+Fri Jan 13 15:33:47 UTC 2017  Phil Mesnier  <mesnierp@ociweb.com>
+
+        * CIAO version 1.2a_p11 released.
+
+Thu Sep 29 17:28:34 UTC 2016  Phil Mesnier  <mesnierp@ociweb.com>
+
+        * CIAO version 1.2a_p10 released.
+
+Mon Sep 26 17:24:41 UTC 2016  Huang-Ming Huang  <huangh@ociweb.com>
+
+        * ciao/Deployment/Handlers/CIAO_State.cpp:
+        * connectors/dds4ccm/impl/DomainParticipantManager.cpp:
+
+          Fix explicit template instantiation problem.
+
+Wed Mar  2 16:27:04 UTC 2016  Phil Mesnier  <mesnierp@ociweb.com>
+
+        * CIAO version 1.2a_p9 released.
+
+Fri Dec 18 13:36:52 UTC 2015  Phil Mesnier  <mesnierp@ociweb.com>
+
+        * CIAO version 1.2a_p8 released.
+
+Fri Aug 28 17:11:09 UTC 2015  Phil Mesnier  <mesnierp@ociweb.com>
+
+        * CIAO version 1.2a_p7 released.
+
+Wed Feb 25 16:14:06 UTC 2015  Phil Mesnier  <mesnier_p@ociweb.com>
+
+        * CIAO version 1.2a_p6 released.
+
+Fri Jan 30 20:53:46 UTC 2015  Phil Mesnier  <mesnier_p@ociweb.com>
+
+        * CIAO version 1.2a_p5 released.
+
+Mon Nov 10 17:48:59 UTC 2014  Phil Mesnier  <mesnier_p@ociweb.com>
+
+        * CIAO version 1.2a_p4 released.
+
+Mon Aug 11 18:46:22 UTC 2014  Phil Mesnier  <mesnier_p@ociweb.com>
+
+        * CIAO version 1.2a_p3 released.
+
+Tue May  6 18:28:36 UTC 2014  Phil Mesnier  <mesnier_p@ociweb.com>
+
+        * CIAO version 1.2a_p2 released.
+
+Tue Feb 25 15:08:41 UTC 2014  Phil Mesnier  <mesnier_p@ociweb.com>
+
+        * CIAO version 1.2a_p1 released.
+
+Mon Jun 10 20:27:39 UTC 2013  Phil  <mesnier_p@ociweb.com>
+
+        * CIAO version 1.2a released.
+
+Fri Jun  7 21:09:28 UTC 2013  Phil Mesnier  <mesnier_p@ociweb.com>
+
+        * OCIChangeLog:
+        * PROBLEM-REPORT-FORM:
+        * VERSION:
+
+        * ciao/Version.h:
+
+        * rules.ciao.GNU:
+
+          Updated version identifier to be consistent with OCI builds.
+
+Local Variables:
+mode: change-log
+add-log-time-format: (lambda () (progn (setq tz (getenv "TZ")) (set-time-zone-rule "UTC") (setq time (format-time-string "%a %b %e %H:%M:%S %Z %Y" (current-time))) (set-time-zone-rule tz) time))
+indent-tabs-mode: nil
+End:

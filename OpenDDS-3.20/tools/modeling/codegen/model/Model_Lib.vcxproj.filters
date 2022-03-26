@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-923E-8A28D3B00A39}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-923E-8A28D3B00A39}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-923E-8A28D3B00A39}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Inline Files">
+      <UniqueIdentifier>{763028EF-FECA-1BAD-923E-8A28D3B00A39}</UniqueIdentifier>
+      <Extensions>i;ipp;inl</Extensions>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{5635C877-FECA-1BAD-923E-8A28D3B00A39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{502A2050-FECA-1BAD-923E-8A28D3B00A39}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Delegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityProfiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NullListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NullParticipantListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NullPublisherListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NullReaderListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NullSubscriberListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NullTopicListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NullWriterListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransportDirectives.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyQos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityProfiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullParticipantListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullPublisherListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullReaderListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullSubscriberListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullTopicListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullWriterListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Service_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransportDirectives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Model.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Entities.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Service_T.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="model.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

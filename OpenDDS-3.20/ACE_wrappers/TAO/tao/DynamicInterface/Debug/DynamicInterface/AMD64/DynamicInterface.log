@@ -1,0 +1,17 @@
+﻿  AMH_DSI_Response_Handler.cpp
+  Context.cpp
+  DII_Arguments.cpp
+  DII_Arguments_Converter_Impl.cpp
+  DII_Invocation.cpp
+  DII_Invocation_Adapter.cpp
+  DII_Reply_Dispatcher.cpp
+  DII_Reply_Handler.cpp
+  Dynamic_Adapter_Impl.cpp
+  Dynamic_Implementation.cpp
+  ExceptionList.cpp
+  Request.cpp
+  Server_Request.cpp
+  Unknown_User_Exception.cpp
+  正在生成代码...
+    正在创建库 ..\..\..\lib\TAO_DynamicInterfaced.lib 和对象 ..\..\..\lib\TAO_DynamicInterfaced.exp
+  DynamicInterface.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\ace_wrappers\lib\TAO_DynamicInterfaced.dll

@@ -1,0 +1,12 @@
+﻿  AbstractBase.cpp
+  AbstractBase_Invocation_Adapter.cpp
+  StringValueA.cpp
+  StringValueC.cpp
+  ValueBase.cpp
+  ValueFactory.cpp
+  ValueFactory_Map.cpp
+  Valuetype_Adapter_Factory_Impl.cpp
+  Valuetype_Adapter_Impl.cpp
+  正在生成代码...
+    正在创建库 ..\..\..\lib\TAO_Valuetyped.lib 和对象 ..\..\..\lib\TAO_Valuetyped.exp
+  Valuetype.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\ace_wrappers\lib\TAO_Valuetyped.dll

@@ -1,0 +1,19 @@
+﻿  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DataReaderRemote.idl"
+  tao-idli_DUTECV.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DataWriterRemote.idl"
+  tao-idli_dFqPGh.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on Info.idl"
+  tao-idli_dAIzaw.cpp
+  DataReaderRemoteC.cpp
+  DataReaderRemoteImpl.cpp
+  DataReaderRemoteS.cpp
+  DataWriterRemoteC.cpp
+  DataWriterRemoteImpl.cpp
+  DataWriterRemoteS.cpp
+  FailoverListener.cpp
+  InfoC.cpp
+  InfoRepoDiscovery.cpp
+  InfoS.cpp
+  正在生成代码...
+    正在创建库 ..\..\..\lib\OpenDDS_InfoRepoDiscoveryd.lib 和对象 ..\..\..\lib\OpenDDS_InfoRepoDiscoveryd.exp
+  OpenDDS_InfoRepoDiscovery.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\lib\OpenDDS_InfoRepoDiscoveryd.dll

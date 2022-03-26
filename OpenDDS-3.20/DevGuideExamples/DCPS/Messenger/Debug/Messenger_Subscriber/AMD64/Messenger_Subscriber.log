@@ -1,0 +1,14 @@
+﻿  Invoking "..\..\..\bin\opendds_idl and "C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on Messenger.idl"
+  tao-idli_QvZkVu.cpp
+  tao-idli_CG4Fgd.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on MessengerTypeSupport.idl"
+  tao-idli_eJYCUh.cpp
+  DataReaderListenerImpl.cpp
+  MessengerC.cpp
+  MessengerS.cpp
+  MessengerTypeSupportC.cpp
+  MessengerTypeSupportImpl.cpp
+  MessengerTypeSupportS.cpp
+  Subscriber.cpp
+  正在生成代码...
+  Messenger_Subscriber.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\DevGuideExamples\DCPS\Messenger\subscriber.exe

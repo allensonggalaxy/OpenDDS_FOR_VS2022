@@ -1,0 +1,10 @@
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\TOOLS\DDS\RTPSRELAYLIB\RELAYTYPESUPPORT.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -I..\..\.. -SS -Sa -St -Wb,export_macro=OpenDDS_RtpsRelayLib_Export -Wb,export_include=export.h -SS "RelayTypeSupport.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\TOOLS\DDS\RTPSRELAYLIB\RELAY.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c "..\..\..\bin\opendds_idl -Sa -St -Lc++11 -Wb,export_macro=OpenDDS_RtpsRelayLib_Export -Wb,export_include=export.h "Relay.idl""
+endlocal

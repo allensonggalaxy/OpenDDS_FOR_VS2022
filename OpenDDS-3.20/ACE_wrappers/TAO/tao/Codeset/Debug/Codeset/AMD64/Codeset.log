@@ -1,0 +1,14 @@
+﻿  CodeSetContextC.cpp
+  Codeset.cpp
+  Codeset_Descriptor.cpp
+  Codeset_Manager_Factory.cpp
+  Codeset_Manager_i.cpp
+  Codeset_Service_Context_Handler.cpp
+  Codeset_Translator_Factory.cpp
+  UTF16_BOM_Factory.cpp
+  UTF16_BOM_Translator.cpp
+  UTF8_Latin1_Factory.cpp
+  UTF8_Latin1_Translator.cpp
+  正在生成代码...
+    正在创建库 ..\..\..\lib\TAO_Codesetd.lib 和对象 ..\..\..\lib\TAO_Codesetd.exp
+  Codeset.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\ace_wrappers\lib\TAO_Codesetd.dll

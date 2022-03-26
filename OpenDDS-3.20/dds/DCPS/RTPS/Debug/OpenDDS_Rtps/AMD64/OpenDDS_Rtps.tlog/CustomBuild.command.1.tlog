@@ -1,0 +1,15 @@
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DCPS\RTPS\RTPSSECURITY.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -I..\..\.. -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h -SS "RtpsSecurity.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DCPS\RTPS\RTPSCORE.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c "..\..\..\bin\opendds_idl -Sa -St -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h -SI "RtpsCore.idl" && cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -I..\..\.. -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h -SS "RtpsCore.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DDS\DCPS\RTPS\RTPSRPC.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c "..\..\..\bin\opendds_idl -Sa -St -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h -SI "RtpsRpc.idl" && cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -I..\..\.. -Wb,versioning_begin=OPENDDS_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=OPENDDS_END_VERSIONED_NAMESPACE_DECL -Wb,versioning_include=dds/Versioned_Namespace.h -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h -SS "RtpsRpc.idl""
+endlocal

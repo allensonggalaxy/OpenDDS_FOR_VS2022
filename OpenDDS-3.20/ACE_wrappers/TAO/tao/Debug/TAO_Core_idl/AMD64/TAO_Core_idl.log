@@ -1,0 +1,74 @@
+﻿  Invoking ""..\..\bin\tao_idl" on BooleanSeq.pidl"
+  tao-idli_4XPrOe.cpp
+  Invoking ""..\..\bin\tao_idl" on CharSeq.pidl"
+  tao-idli_Aoj3Bn.cpp
+  Invoking ""..\..\bin\tao_idl" on CONV_FRAME.pidl"
+  tao-idli_xmNZ8t.cpp
+  Invoking ""..\..\bin\tao_idl" on Current.pidl"
+  tao-idli_EgAN0D.cpp
+  Invoking ""..\..\bin\tao_idl" on DoubleSeq.pidl"
+  tao-idli_Zq2Ish.cpp
+  Invoking ""..\..\bin\tao_idl" on FloatSeq.pidl"
+  tao-idli_NxhVSB.cpp
+  Invoking ""..\..\bin\tao_idl" on GIOP.pidl"
+  tao-idli_EH0d0k.cpp
+  Invoking ""..\..\bin\tao_idl" on IIOP.pidl"
+  tao-idli_y2mHrn.cpp
+  Invoking ""..\..\bin\tao_idl" on IIOP_Endpoints.pidl"
+  tao-idli_6JMnwY.cpp
+  Invoking ""..\..\bin\tao_idl" on Int8Seq.pidl"
+  tao-idli_beO7Z4.cpp
+  Invoking ""..\..\bin\tao_idl" on IOP.pidl"
+  tao-idli_GjNVQN.cpp
+  Invoking ""..\..\bin\tao_idl" on LongDoubleSeq.pidl"
+  tao-idli_W9HcWY.cpp
+  Invoking ""..\..\bin\tao_idl" on LongLongSeq.pidl"
+  tao-idli_ywwFQd.cpp
+  Invoking ""..\..\bin\tao_idl" on LongSeq.pidl"
+  tao-idli_F4LTho.cpp
+  Invoking ""..\..\bin\tao_idl" on Messaging_PolicyValue.pidl"
+  tao-idli_bFbhjv.cpp
+  Invoking ""..\..\bin\tao_idl" on Messaging_SyncScope.pidl"
+  tao-idli_VDH48M.cpp
+  Invoking ""..\..\bin\tao_idl" on ObjectIdList.pidl"
+  tao-idli_xm1YMF.cpp
+  Invoking ""..\..\bin\tao_idl" on OctetSeq.pidl"
+  tao-idli_V4dZbs.cpp
+  Invoking ""..\..\bin\tao_idl" on orb_types.pidl"
+  tao-idli_NeUnQ5.cpp
+  Invoking ""..\..\bin\tao_idl" on ParameterMode.pidl"
+  tao-idli_dg8l5l.cpp
+  Invoking ""..\..\bin\tao_idl" on PI_Forward.pidl"
+  tao-idli_J2fYDD.cpp
+  Invoking ""..\..\bin\tao_idl" on Policy.pidl"
+  tao-idli_75RSa5.cpp
+  Invoking ""..\..\bin\tao_idl" on Policy_Current.pidl"
+  tao-idli_JFIfMB.cpp
+  Invoking ""..\..\bin\tao_idl" on Policy_Forward.pidl"
+  tao-idli_ZYhLYZ.cpp
+  Invoking ""..\..\bin\tao_idl" on Policy_Manager.pidl"
+  tao-idli_n6FZcz.cpp
+  Invoking ""..\..\bin\tao_idl" on PortableInterceptor.pidl"
+  tao-idli_K4nrCe.cpp
+  Invoking ""..\..\bin\tao_idl" on Services.pidl"
+  tao-idli_UL5hq3.cpp
+  Invoking ""..\..\bin\tao_idl" on ShortSeq.pidl"
+  tao-idli_T5tqdZ.cpp
+  Invoking ""..\..\bin\tao_idl" on StringSeq.pidl"
+  tao-idli_YyULnQ.cpp
+  Invoking ""..\..\bin\tao_idl" on TAO.pidl"
+  tao-idli_bQ68QS.cpp
+  Invoking ""..\..\bin\tao_idl" on TimeBase.pidl"
+  tao-idli_cfYejl.cpp
+  Invoking ""..\..\bin\tao_idl" on UInt8Seq.pidl"
+  tao-idli_HRI0j9.cpp
+  Invoking ""..\..\bin\tao_idl" on ULongLongSeq.pidl"
+  tao-idli_EYBzSw.cpp
+  Invoking ""..\..\bin\tao_idl" on ULongSeq.pidl"
+  tao-idli_Ti7LzD.cpp
+  Invoking ""..\..\bin\tao_idl" on UShortSeq.pidl"
+  tao-idli_VQzDY2.cpp
+  Invoking ""..\..\bin\tao_idl" on WCharSeq.pidl"
+  tao-idli_lyEuxz.cpp
+  Invoking ""..\..\bin\tao_idl" on WStringSeq.pidl"
+  tao-idli_7HlioW.cpp

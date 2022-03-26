@@ -1,0 +1,13 @@
+﻿  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" and ..\..\..\bin\opendds_idl on Messenger.idl"
+  tao-idli_ounJVg.cpp
+  tao-idli_XMvlyA.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on MessengerTypeSupport.idl"
+  tao-idli_Bl08qF.cpp
+  MessengerC.cpp
+  MessengerS.cpp
+  MessengerTypeSupportC.cpp
+  MessengerTypeSupportImpl.cpp
+  MessengerTypeSupportS.cpp
+  正在生成代码...
+    正在创建库 .\Messenger_ZeroCopy_Idld.lib 和对象 .\Messenger_ZeroCopy_Idld.exp
+  Messenger_ZeroCopy_Idl.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\DevGuideExamples\DCPS\Messenger_ZeroCopy\Messenger_ZeroCopy_Idld.dll

@@ -1,0 +1,16 @@
+﻿  BestEffortSession.cpp
+  BestEffortSessionFactory.cpp
+  Multicast.cpp
+  MulticastDataLink.cpp
+  MulticastInst.cpp
+  MulticastLoader.cpp
+  MulticastReceiveStrategy.cpp
+  MulticastSendStrategy.cpp
+  MulticastSession.cpp
+  MulticastSessionFactory.cpp
+  MulticastTransport.cpp
+  ReliableSession.cpp
+  ReliableSessionFactory.cpp
+  正在生成代码...
+    正在创建库 ..\..\..\..\lib\OpenDDS_Multicastd.lib 和对象 ..\..\..\..\lib\OpenDDS_Multicastd.exp
+  OpenDDS_Multicast.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\lib\OpenDDS_Multicastd.dll

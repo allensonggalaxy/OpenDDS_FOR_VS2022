@@ -1,0 +1,10 @@
+﻿  Invoking "..\..\..\bin\opendds_idl on FaceMessage.idl"
+  tao-idli_bqOs2T.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on FaceMessageTypeSupport.idl"
+  tao-idli_anShG9.cpp
+  FaceMessageTypeSupportC.cpp
+  FaceMessageTypeSupportImpl.cpp
+  FaceMessage_TS.cpp
+  正在生成代码...
+    正在创建库 .\FaceMessenger_Idld.lib 和对象 .\FaceMessenger_Idld.exp
+  FaceMessenger_Idl.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\DevGuideExamples\FACE\Simple\FaceMessenger_Idld.dll

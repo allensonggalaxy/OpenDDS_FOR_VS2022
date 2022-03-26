@@ -1,0 +1,16 @@
+﻿  Invoking ""..\..\..\bin\tao_idl" on RtecBase.idl"
+  tao-idli_fqkqcT.cpp
+  Invoking ""..\..\..\bin\tao_idl" on TimeBase.idl"
+  tao-idli_uVQv4x.cpp
+  Daemon_Utilities.cpp
+  IOR_Multicast.cpp
+  Log_Macros.cpp
+  RtecBaseC.cpp
+  RtecBaseS.cpp
+  Shutdown_Utilities.cpp
+  TimeBaseC.cpp
+  TimeBaseS.cpp
+  Time_Utilities.cpp
+  正在生成代码...
+    正在创建库 ..\..\..\lib\TAO_Svc_Utilsd.lib 和对象 ..\..\..\lib\TAO_Svc_Utilsd.exp
+  Svc_Utils.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\ace_wrappers\lib\TAO_Svc_Utilsd.dll

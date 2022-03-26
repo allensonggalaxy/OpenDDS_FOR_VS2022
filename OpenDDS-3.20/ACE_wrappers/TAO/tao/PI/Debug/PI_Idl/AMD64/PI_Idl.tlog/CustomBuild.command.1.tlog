@@ -1,0 +1,55 @@
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PI\CLIENTREQUESTINFO.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sci -Gp -Gd -Wb,export_macro=TAO_PI_Export -Wb,export_include=tao/PI/pi_export.h -iC tao/PI -GA -Sorb -Sal -Wb,include_guard=TAO_PI_SAFE_INCLUDE -Wb,safe_include=tao/PI/PI.h "ClientRequestInfo.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PI\CLIENTREQUESTINTERCEPTOR.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sci -Gp -Gd -Wb,export_macro=TAO_PI_Export -Wb,export_include=tao/PI/pi_export.h -iC tao/PI -GA -Sorb -Sal -Wb,include_guard=TAO_PI_SAFE_INCLUDE -Wb,safe_include=tao/PI/PI.h "ClientRequestInterceptor.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PI\INTERCEPTOR.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sci -Gp -Gd -Wb,export_macro=TAO_PI_Export -Wb,export_include=tao/PI/pi_export.h -iC tao/PI -GA -Sorb -Sal "Interceptor.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PI\INVALIDSLOT.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sci -Gp -Gd -Wb,export_macro=TAO_PI_Export -Wb,export_include=tao/PI/pi_export.h -iC tao/PI -GA -Sal -Wb,include_guard=TAO_PI_SAFE_INCLUDE -Wb,safe_include=tao/PI/PI.h "InvalidSlot.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PI\ORBINITIALIZER.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sci -Gp -Gd -Wb,export_macro=TAO_PI_Export -Wb,export_include=tao/PI/pi_export.h -iC tao/PI -GA -Sorb -Sal -Wb,include_guard=TAO_PI_SAFE_INCLUDE -Wb,safe_include=tao/PI/PI.h "ORBInitializer.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PI\ORBINITINFO.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sci -Gp -Gd -Wb,export_macro=TAO_PI_Export -Wb,export_include=tao/PI/pi_export.h -iC tao/PI -Sorb -Sal -GX -Wb,include_guard=TAO_PI_SAFE_INCLUDE -Wb,safe_include=tao/PI/PI.h "ORBInitInfo.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PI\PI_INCLUDE.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Sa -St -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sci -Gp -Gd -Wb,export_macro=TAO_PI_Export -Wb,export_include=tao/PI/pi_export.h -iC tao/PI -Sorb -GX -Wb,unique_include=tao/PI/PI.h "PI_include.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PI\PICURRENT.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sci -Gp -Gd -Wb,export_macro=TAO_PI_Export -Wb,export_include=tao/PI/pi_export.h -iC tao/PI -GA -Sorb -Sal -Wb,include_guard=TAO_PI_SAFE_INCLUDE -Wb,safe_include=tao/PI/PI.h "PICurrent.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PI\PIFORWARDREQUEST.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sci -Gp -Gd -Wb,export_macro=TAO_PI_Export -Wb,export_include=tao/PI/pi_export.h -iC tao/PI -GA -Sorb -Sal -Wb,include_guard=TAO_PI_SAFE_INCLUDE -Wb,safe_include=tao/PI/PI.h "PIForwardRequest.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PI\PROCESSINGMODEPOLICY.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sci -Gp -Gd -Wb,export_macro=TAO_PI_Export -Wb,export_include=tao/PI/pi_export.h -iC tao/PI -GA -Sorb -Sal -Wb,include_guard=TAO_PI_SAFE_INCLUDE -Wb,safe_include=tao/PI/PI.h "ProcessingModePolicy.pidl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\ACE_WRAPPERS\TAO\TAO\PI\REQUESTINFO.PIDL
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c ""..\..\..\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"..\.." -Wb,versioning_begin=TAO_BEGIN_VERSIONED_NAMESPACE_DECL -Wb,versioning_end=TAO_END_VERSIONED_NAMESPACE_DECL -SS -Sci -Gp -Gd -Wb,export_macro=TAO_PI_Export -Wb,export_include=tao/PI/pi_export.h -iC tao/PI -GA -Sorb -Sal -Wb,include_guard=TAO_PI_SAFE_INCLUDE -Wb,safe_include=tao/PI/PI.h "RequestInfo.pidl""
+endlocal

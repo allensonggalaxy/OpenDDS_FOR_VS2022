@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-5371-8A64650B47D3}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-5371-8A64650B47D3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-5371-8A64650B47D3}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Idl Files">
+      <UniqueIdentifier>{2990FA4C-FECA-1BAD-5371-8A64650B47D3}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Typesupport And Idl Files">
+      <UniqueIdentifier>{9E235CA7-FECA-1BAD-5371-8A64650B47D3}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Inline Files">
+      <UniqueIdentifier>{763028EF-FECA-1BAD-5371-8A64650B47D3}</UniqueIdentifier>
+      <Extensions>i;ipp;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{502A2050-FECA-1BAD-5371-8A64650B47D3}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseMessageUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuidGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICE\AgentImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICE\Checklist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICE\EndpointManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICE\Ice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICE\Stun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICE\Task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterListConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsCoreC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsCoreTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsDiscovery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsRpcC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsRpcTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsSecurityC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sedp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spdp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeLookup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseMessageTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMessageUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuidGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICE\AgentImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICE\Checklist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICE\EndpointManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICE\Ice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICE\Stun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICE\Task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterListConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtps_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsCoreC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsCoreS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsCoreTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsDiscovery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsRpcC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsRpcS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsRpcTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsSecurityC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsSecurityS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sedp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spdp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeLookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rtps.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+    <None Include="rtps_optional_safety.mpb">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RtpsSecurity.idl">
+      <Filter>Idl Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RtpsCore.idl">
+      <Filter>Typesupport And Idl Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RtpsRpc.idl">
+      <Filter>Typesupport And Idl Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RtpsCoreC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="RtpsRpcC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="RtpsSecurityC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rtps.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

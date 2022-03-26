@@ -1,0 +1,304 @@
+﻿  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcps.idl"
+  tao-idli_vatZf6.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsConditionSeq.idl"
+  tao-idli_6oE7RP.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsDataReaderSeq.idl"
+  tao-idli_gxEvPR.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsDomain.idl"
+  tao-idli_3Jgmwt.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsPublication.idl"
+  tao-idli_tRM4DF.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsSubscription.idl"
+  tao-idli_utEcDP.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsSubscriptionExt.idl"
+  tao-idli_mGJn9G.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsTopic.idl"
+  tao-idli_tHcyyp.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsTypeSupportExt.idl"
+  tao-idli_JhcrTz.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\BooleanSeq.idl"
+  tao-idli_0nT43d.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\CharSeq.idl"
+  tao-idli_7FUuUi.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\DoubleSeq.idl"
+  tao-idli_TEzqFZ.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\FloatSeq.idl"
+  tao-idli_0TLmqA.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\Int8Seq.idl"
+  tao-idli_KqPz6K.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\LongDoubleSeq.idl"
+  tao-idli_1Kay7n.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\LongLongSeq.idl"
+  tao-idli_odLdIP.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\LongSeq.idl"
+  tao-idli_P9tEBu.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\OctetSeq.idl"
+  tao-idli_sit049.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\ShortSeq.idl"
+  tao-idli_ia2ZrR.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\StringSeq.idl"
+  tao-idli_SElsDS.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\UInt8Seq.idl"
+  tao-idli_7m3EjU.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\ULongLongSeq.idl"
+  tao-idli_aEXM6s.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\ULongSeq.idl"
+  tao-idli_81XvQK.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\UShortSeq.idl"
+  tao-idli_tE4QAh.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\WCharSeq.idl"
+  tao-idli_0eryUQ.cpp
+  Invoking "..\bin\opendds_idl on CorbaSeq\WStringSeq.idl"
+  tao-idli_UqG8jp.cpp
+  Invoking "..\bin\opendds_idl and "C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsCore.idl"
+  tao-idli_DuHada.cpp
+  tao-idli_MPANng.cpp
+  Invoking "..\bin\opendds_idl and "C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsGuid.idl"
+  tao-idli_4yXwlV.cpp
+  tao-idli_9Dg5FG.cpp
+  Invoking "..\bin\opendds_idl and "C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsInfoUtils.idl"
+  tao-idli_xO5ECO.cpp
+  tao-idli_hljvCX.cpp
+  Invoking "..\bin\opendds_idl and "C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsInfrastructure.idl"
+  tao-idli_tSTvby.cpp
+  tao-idli_0rmGee.cpp
+  Invoking "..\bin\opendds_idl and "C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsSecurityCore.idl"
+  tao-idli_yFDUzn.cpp
+  tao-idli_Nexvgk.cpp
+  Invoking "..\bin\opendds_idl and "C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsSecurityParams.idl"
+  tao-idli_dmhJ9z.cpp
+  tao-idli_8FADaF.cpp
+  Invoking "..\bin\opendds_idl and "C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on OpenddsDcpsExt.idl"
+  tao-idli_05fveU.cpp
+  tao-idli_r5yp2j.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsCoreTypeSupport.idl"
+  tao-idli_2RpBqX.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsGuidTypeSupport.idl"
+  tao-idli_80OQCr.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on DdsDcpsInfrastructureTypeSupport.idl"
+  tao-idli_mZV3Bo.cpp
+  Invoking ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" on OpenddsDcpsExtTypeSupport.idl"
+  tao-idli_f8ISJq.cpp
+  DdsDcps_pch.cpp
+  BooleanSeqTypeSupportImpl.cpp
+  CharSeqTypeSupportImpl.cpp
+  DoubleSeqTypeSupportImpl.cpp
+  FloatSeqTypeSupportImpl.cpp
+  Int8SeqTypeSupportImpl.cpp
+  LongDoubleSeqTypeSupportImpl.cpp
+  LongLongSeqTypeSupportImpl.cpp
+  LongSeqTypeSupportImpl.cpp
+  OctetSeqTypeSupportImpl.cpp
+  ShortSeqTypeSupportImpl.cpp
+  StringSeqTypeSupportImpl.cpp
+  UInt8SeqTypeSupportImpl.cpp
+  ULongLongSeqTypeSupportImpl.cpp
+  ULongSeqTypeSupportImpl.cpp
+  UShortSeqTypeSupportImpl.cpp
+  WCharSeqTypeSupportImpl.cpp
+  WStringSeqTypeSupportImpl.cpp
+  BitPubListenerImpl.cpp
+  BuiltInTopicUtils.cpp
+  CoherentChangeControl.cpp
+  正在生成代码...
+  正在编译...
+  ConditionImpl.cpp
+  ConfigUtils.cpp
+  ConnectionRecords.cpp
+  ContentFilteredTopicImpl.cpp
+  DCPS_Utils.cpp
+  DataDurabilityCache.cpp
+  DataReaderImpl.cpp
+  DataSampleElement.cpp
+  DataSampleHeader.cpp
+  DataWriterImpl.cpp
+  DcpsUpcalls.cpp
+  Discovery.cpp
+  DisjointSequence.cpp
+  DomainParticipantFactoryImpl.cpp
+  DomainParticipantImpl.cpp
+  EntityImpl.cpp
+  FileSystemStorage.cpp
+  FilterEvaluator.cpp
+  GroupRakeData.cpp
+  GuardCondition.cpp
+  正在生成代码...
+  正在编译...
+  GuidBuilder.cpp
+  GuidConverter.cpp
+  GuidUtils.cpp
+  Hash.cpp
+  InstanceDataSampleList.cpp
+  InstanceHandle.cpp
+  InstanceState.cpp
+  JobQueue.cpp
+  LinuxNetworkConfigMonitor.cpp
+  LogAddr.cpp
+  Logging.cpp
+  Marked_Default_Qos.cpp
+  MemoryPool.cpp
+  MessageTracker.cpp
+  MonitorFactory.cpp
+  MultiTopicDataReaderBase.cpp
+  MultiTopicImpl.cpp
+  MulticastManager.cpp
+  NetworkAddress.cpp
+  NetworkConfigModifier.cpp
+  正在生成代码...
+  正在编译...
+  NetworkConfigMonitor.cpp
+  NetworkResource.cpp
+  Observer.cpp
+  OwnershipManager.cpp
+  Printer.cpp
+  PublisherImpl.cpp
+  Qos_Helper.cpp
+  QueryConditionImpl.cpp
+C:\Users\Admin\Downloads\OpenDDS-3.20\dds\DCPS\QueryConditionImpl.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  RawDataSample.cpp
+  ReactorInterceptor.cpp
+  ReactorTask.cpp
+  ReadConditionImpl.cpp
+  ReceivedDataElementList.cpp
+  ReceivedDataStrategy.cpp
+  Recorder.cpp
+  RecorderImpl.cpp
+  Registered_Data_Types.cpp
+  Replayer.cpp
+  ReplayerImpl.cpp
+  RepoIdBuilder.cpp
+  正在生成代码...
+  正在编译...
+  RepoIdConverter.cpp
+  RepoIdGenerator.cpp
+  RequestedDeadlineWatchdog.cpp
+  SafetyProfilePool.cpp
+  SafetyProfileSequences.cpp
+  SafetyProfileStreams.cpp
+  SendStateDataSampleList.cpp
+  SequenceNumber.cpp
+  Serializer.cpp
+  Service_Participant.cpp
+  StaticDiscovery.cpp
+  StatusConditionImpl.cpp
+  SubscriberImpl.cpp
+  SubscriptionInstance.cpp
+  ThreadStatusManager.cpp
+  TimeDuration.cpp
+  Time_Helper.cpp
+  TopicDescriptionImpl.cpp
+  TopicImpl.cpp
+  Transient_Kludge.cpp
+  正在生成代码...
+  正在编译...
+  TypeSupportImpl.cpp
+  ValueReader.cpp
+  ValueWriter.cpp
+  WaitSet.cpp
+  Watchdog.cpp
+  WriteDataContainer.cpp
+  WriterDataSampleList.cpp
+  WriterInfo.cpp
+  DynamicData.cpp
+  DynamicType.cpp
+  DynamicTypeMember.cpp
+  MemberDescriptor.cpp
+  TypeAssignability.cpp
+  TypeDescriptor.cpp
+  TypeLookupService.cpp
+  TypeObject.cpp
+  debug.cpp
+  HandleRegistry.cpp
+  SecurityConfig.cpp
+  SecurityPluginInst.cpp
+  正在生成代码...
+  正在编译...
+  SecurityRegistry.cpp
+  BuildChainVisitor.cpp
+  CopyChainVisitor.cpp
+  DataLink.cpp
+  DataLinkCleanupTask.cpp
+  DataLinkSet.cpp
+  DirectPriorityMapper.cpp
+  NullSynch.cpp
+  NullSynchStrategy.cpp
+  PacketRemoveVisitor.cpp
+  PerConnectionSynch.cpp
+  PerConnectionSynchStrategy.cpp
+  PoolSynch.cpp
+  PoolSynchStrategy.cpp
+  PriorityKey.cpp
+  PriorityMapper.cpp
+  QueueRemoveVisitor.cpp
+  ReactorSynch.cpp
+  ReactorSynchStrategy.cpp
+  ReceiveListenerSet.cpp
+  正在生成代码...
+  正在编译...
+  ReceiveListenerSetMap.cpp
+  ReceivedDataSample.cpp
+  RemoveAllVisitor.cpp
+  ScheduleOutputHandler.cpp
+  SendResponseListener.cpp
+  ThreadPerConRemoveVisitor.cpp
+  ThreadPerConnectionSendTask.cpp
+  ThreadSynch.cpp
+  ThreadSynchResource.cpp
+  ThreadSynchStrategy.cpp
+  ThreadSynchWorker.cpp
+  TransportClient.cpp
+  TransportConfig.cpp
+  TransportControlElement.cpp
+  TransportCustomizedElement.cpp
+  TransportDebug.cpp
+  TransportHeader.cpp
+  TransportImpl.cpp
+  TransportInst.cpp
+  TransportQueueElement.cpp
+  正在生成代码...
+  正在编译...
+  TransportReassembly.cpp
+  TransportReceiveListener.cpp
+  TransportReceiveStrategy.cpp
+  TransportRegistry.cpp
+  TransportReplacedElement.cpp
+  TransportRetainedElement.cpp
+  TransportSendBuffer.cpp
+  TransportSendControlElement.cpp
+  TransportSendElement.cpp
+  TransportSendListener.cpp
+  TransportSendStrategy.cpp
+  TransportStrategy.cpp
+  TransportType.cpp
+  DdsDcpsC.cpp
+  DdsDcpsConditionSeqC.cpp
+  DdsDcpsCoreC.cpp
+  DdsDcpsCoreTypeSupportC.cpp
+  DdsDcpsCoreTypeSupportImpl.cpp
+  DdsDcpsDataReaderSeqC.cpp
+  DdsDcpsDomainC.cpp
+  正在生成代码...
+  正在编译...
+  DdsDcpsGuidC.cpp
+  DdsDcpsGuidTypeSupportC.cpp
+  DdsDcpsGuidTypeSupportImpl.cpp
+  DdsDcpsInfoUtilsC.cpp
+  DdsDcpsInfoUtilsTypeSupportImpl.cpp
+  DdsDcpsInfrastructureC.cpp
+  DdsDcpsInfrastructureTypeSupportC.cpp
+  DdsDcpsInfrastructureTypeSupportImpl.cpp
+  DdsDcpsPublicationC.cpp
+  DdsDcpsSubscriptionC.cpp
+  DdsDcpsSubscriptionExtC.cpp
+  DdsDcpsTopicC.cpp
+  DdsDcpsTypeSupportExtC.cpp
+  DdsSecurityCoreC.cpp
+  DdsSecurityCoreTypeSupportImpl.cpp
+  DdsSecurityParamsC.cpp
+  DdsSecurityParamsTypeSupportImpl.cpp
+  OpenddsDcpsExtC.cpp
+  OpenddsDcpsExtTypeSupportC.cpp
+  OpenddsDcpsExtTypeSupportImpl.cpp
+  正在生成代码...
+    正在创建库 ..\lib\OpenDDS_Dcpsd.lib 和对象 ..\lib\OpenDDS_Dcpsd.exp
+  OpenDDS_Dcps.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\lib\OpenDDS_Dcpsd.dll

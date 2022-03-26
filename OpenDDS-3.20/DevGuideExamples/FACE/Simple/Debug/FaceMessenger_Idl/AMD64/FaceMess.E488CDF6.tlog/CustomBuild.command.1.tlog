@@ -1,0 +1,10 @@
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DEVGUIDEEXAMPLES\FACE\SIMPLE\FACEMESSAGETYPESUPPORT.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c ""C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\bin\tao_idl" -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I"C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\TAO" --idl-version 4 --unknown-annotations ignore -as -Sa -St -I..\..\.. -SS -Wb,no_fixed_err -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export "FaceMessageTypeSupport.idl""
+endlocal
+^C:\USERS\ADMIN\DOWNLOADS\OPENDDS-3.20\DEVGUIDEEXAMPLES\FACE\SIMPLE\FACEMESSAGE.IDL
+setlocal
+PATH=%PATH%;C:\Users\Admin\Downloads\OpenDDS-3.20\ACE_wrappers\lib
+cmd /c "..\..\..\bin\opendds_idl -Sa -St -GfaceTS -Lface -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export "FaceMessage.idl""
+endlocal

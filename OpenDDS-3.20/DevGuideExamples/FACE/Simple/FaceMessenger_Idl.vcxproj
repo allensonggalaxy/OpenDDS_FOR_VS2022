@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>FaceMessenger_Idl</ProjectName>
+    <ProjectGuid>{E488CDF6-FECA-1BAD-F43B-AE705C5C28A8}</ProjectGuid>
+    <RootNamespace>FaceMessenger_Idl</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\FaceMessenger_Idl\I386\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">FaceMessenger_Idld</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\FaceMessenger_Idl\I386\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">FaceMessenger_Idl</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Debug\FaceMessenger_Idl\AMD64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FaceMessenger_Idld</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Release\FaceMessenger_Idl\AMD64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FaceMessenger_Idl</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Debug\FaceMessenger_Idl\ARM\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">FaceMessenger_Idld</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Release\FaceMessenger_Idl\ARM\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">FaceMessenger_Idl</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|ARM'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Debug\FaceMessenger_Idl\ARM64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">FaceMessenger_Idld</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">Release\FaceMessenger_Idl\ARM64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">FaceMessenger_Idl</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FACEMESSENGER_BUILD_DLL;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;MPC_LIB_MODIFIER=&quot;d&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ProgramDataBaseFileName>Debug\FaceMessenger_Idl\I386\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ACEd.lib;TAOd.lib;TAO_AnyTypeCoded.lib;TAO_PortableServerd.lib;TAO_CodecFactoryd.lib;TAO_PId.lib;TAO_BiDirGIOPd.lib;OpenDDS_Dcpsd.lib;OpenDDS_FACEd.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)FaceMessenger_Idld.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>$(OutDir)\FaceMessenger_Idld_dll.pdb</ProgramDatabaseFile>
+      <ImportLibrary>.\FaceMessenger_Idld.lib</ImportLibrary>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FACEMESSENGER_BUILD_DLL;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ACE.lib;TAO.lib;TAO_AnyTypeCode.lib;TAO_PortableServer.lib;TAO_CodecFactory.lib;TAO_PI.lib;TAO_BiDirGIOP.lib;OpenDDS_Dcps.lib;OpenDDS_FACE.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)FaceMessenger_Idl.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>.\FaceMessenger_Idl.lib</ImportLibrary>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FACEMESSENGER_BUILD_DLL;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;MPC_LIB_MODIFIER=&quot;d&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ProgramDataBaseFileName>Debug\FaceMessenger_Idl\AMD64\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ACEd.lib;TAOd.lib;TAO_AnyTypeCoded.lib;TAO_PortableServerd.lib;TAO_CodecFactoryd.lib;TAO_PId.lib;TAO_BiDirGIOPd.lib;OpenDDS_Dcpsd.lib;OpenDDS_FACEd.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)FaceMessenger_Idld.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>$(OutDir)\FaceMessenger_Idld_dll.pdb</ProgramDatabaseFile>
+      <ImportLibrary>.\FaceMessenger_Idld.lib</ImportLibrary>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/machine:AMD64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FACEMESSENGER_BUILD_DLL;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ACE.lib;TAO.lib;TAO_AnyTypeCode.lib;TAO_PortableServer.lib;TAO_CodecFactory.lib;TAO_PI.lib;TAO_BiDirGIOP.lib;OpenDDS_Dcps.lib;OpenDDS_FACE.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)FaceMessenger_Idl.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>.\FaceMessenger_Idl.lib</ImportLibrary>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/machine:AMD64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>ARM</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FACEMESSENGER_BUILD_DLL;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_ARM_;_ARM;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;MPC_LIB_MODIFIER=&quot;d&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ProgramDataBaseFileName>Debug\FaceMessenger_Idl\ARM\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_ARM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ACEd.lib;TAOd.lib;TAO_AnyTypeCoded.lib;TAO_PortableServerd.lib;TAO_CodecFactoryd.lib;TAO_PId.lib;TAO_BiDirGIOPd.lib;OpenDDS_Dcpsd.lib;OpenDDS_FACEd.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)FaceMessenger_Idld.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>$(OutDir)\FaceMessenger_Idld_dll.pdb</ProgramDatabaseFile>
+      <ImportLibrary>.\FaceMessenger_Idld.lib</ImportLibrary>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/machine:ARM %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>ARM</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FACEMESSENGER_BUILD_DLL;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_ARM_;_ARM;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_ARM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ACE.lib;TAO.lib;TAO_AnyTypeCode.lib;TAO_PortableServer.lib;TAO_CodecFactory.lib;TAO_PI.lib;TAO_BiDirGIOP.lib;OpenDDS_Dcps.lib;OpenDDS_FACE.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)FaceMessenger_Idl.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>.\FaceMessenger_Idl.lib</ImportLibrary>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/machine:ARM %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>ARM64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FACEMESSENGER_BUILD_DLL;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_ARM64_;_ARM64;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;MPC_LIB_MODIFIER=&quot;d&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ProgramDataBaseFileName>Debug\FaceMessenger_Idl\ARM64\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_ARM64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ACEd.lib;TAOd.lib;TAO_AnyTypeCoded.lib;TAO_PortableServerd.lib;TAO_CodecFactoryd.lib;TAO_PId.lib;TAO_BiDirGIOPd.lib;OpenDDS_Dcpsd.lib;OpenDDS_FACEd.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)FaceMessenger_Idld.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>$(OutDir)\FaceMessenger_Idld_dll.pdb</ProgramDatabaseFile>
+      <ImportLibrary>.\FaceMessenger_Idld.lib</ImportLibrary>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/machine:ARM64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>ARM64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FACEMESSENGER_BUILD_DLL;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_ARM64_;_ARM64;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_ARM64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ACE.lib;TAO.lib;TAO_AnyTypeCode.lib;TAO_PortableServer.lib;TAO_CodecFactory.lib;TAO_PI.lib;TAO_BiDirGIOP.lib;OpenDDS_Dcps.lib;OpenDDS_FACE.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)FaceMessenger_Idl.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>.\FaceMessenger_Idl.lib</ImportLibrary>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/machine:ARM64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FaceMessageTypeSupportC.cpp">
+    </ClCompile>
+    <ClCompile Include="FaceMessageTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="FaceMessage_TS.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FaceMessageC.h" />
+    <ClInclude Include="FaceMessageTypeSupportC.h" />
+    <ClInclude Include="FaceMessageTypeSupportImpl.h" />
+    <ClInclude Include="FaceMessageTypeSupportS.h" />
+    <ClInclude Include="FaceMessage_TS.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FaceMessenger.mpc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FaceMessageTypeSupport.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;&quot;$(ACE_ROOT)\bin\tao_idl&quot; -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I&quot;$(TAO_ROOT)&quot; --idl-version 4 --unknown-annotations ignore -as -Sa -St -I..\..\.. -SS -Wb,no_fixed_err -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessageTypeSupport.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "&quot;$(ACE_ROOT)\bin\tao_idl&quot; on FaceMessageTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">FaceMessageTypeSupportC.cpp;FaceMessageTypeSupportC.h;FaceMessageTypeSupportC.inl;FaceMessageTypeSupportS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;&quot;$(ACE_ROOT)\bin\tao_idl&quot; -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I&quot;$(TAO_ROOT)&quot; --idl-version 4 --unknown-annotations ignore -as -Sa -St -I..\..\.. -SS -Wb,no_fixed_err -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessageTypeSupport.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "&quot;$(ACE_ROOT)\bin\tao_idl&quot; on FaceMessageTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">FaceMessageTypeSupportC.cpp;FaceMessageTypeSupportC.h;FaceMessageTypeSupportC.inl;FaceMessageTypeSupportS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;&quot;$(ACE_ROOT)\bin\tao_idl&quot; -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I&quot;$(TAO_ROOT)&quot; --idl-version 4 --unknown-annotations ignore -as -Sa -St -I..\..\.. -SS -Wb,no_fixed_err -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessageTypeSupport.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "&quot;$(ACE_ROOT)\bin\tao_idl&quot; on FaceMessageTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FaceMessageTypeSupportC.cpp;FaceMessageTypeSupportC.h;FaceMessageTypeSupportC.inl;FaceMessageTypeSupportS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;&quot;$(ACE_ROOT)\bin\tao_idl&quot; -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I&quot;$(TAO_ROOT)&quot; --idl-version 4 --unknown-annotations ignore -as -Sa -St -I..\..\.. -SS -Wb,no_fixed_err -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessageTypeSupport.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "&quot;$(ACE_ROOT)\bin\tao_idl&quot; on FaceMessageTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FaceMessageTypeSupportC.cpp;FaceMessageTypeSupportC.h;FaceMessageTypeSupportC.inl;FaceMessageTypeSupportS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;&quot;$(ACE_ROOT)\bin\tao_idl&quot; -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I&quot;$(TAO_ROOT)&quot; --idl-version 4 --unknown-annotations ignore -as -Sa -St -I..\..\.. -SS -Wb,no_fixed_err -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessageTypeSupport.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Invoking "&quot;$(ACE_ROOT)\bin\tao_idl&quot; on FaceMessageTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">FaceMessageTypeSupportC.cpp;FaceMessageTypeSupportC.h;FaceMessageTypeSupportC.inl;FaceMessageTypeSupportS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;&quot;$(ACE_ROOT)\bin\tao_idl&quot; -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I&quot;$(TAO_ROOT)&quot; --idl-version 4 --unknown-annotations ignore -as -Sa -St -I..\..\.. -SS -Wb,no_fixed_err -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessageTypeSupport.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Invoking "&quot;$(ACE_ROOT)\bin\tao_idl&quot; on FaceMessageTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">FaceMessageTypeSupportC.cpp;FaceMessageTypeSupportC.h;FaceMessageTypeSupportC.inl;FaceMessageTypeSupportS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;&quot;$(ACE_ROOT)\bin\tao_idl&quot; -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I&quot;$(TAO_ROOT)&quot; --idl-version 4 --unknown-annotations ignore -as -Sa -St -I..\..\.. -SS -Wb,no_fixed_err -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessageTypeSupport.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Invoking "&quot;$(ACE_ROOT)\bin\tao_idl&quot; on FaceMessageTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">FaceMessageTypeSupportC.cpp;FaceMessageTypeSupportC.h;FaceMessageTypeSupportC.inl;FaceMessageTypeSupportS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;&quot;$(ACE_ROOT)\bin\tao_idl&quot; -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I&quot;$(TAO_ROOT)&quot; --idl-version 4 --unknown-annotations ignore -as -Sa -St -I..\..\.. -SS -Wb,no_fixed_err -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessageTypeSupport.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">Invoking "&quot;$(ACE_ROOT)\bin\tao_idl&quot; on FaceMessageTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">FaceMessageTypeSupportC.cpp;FaceMessageTypeSupportC.h;FaceMessageTypeSupportC.inl;FaceMessageTypeSupportS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FaceMessage.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;..\..\..\bin\opendds_idl -Sa -St -GfaceTS -Lface -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessage.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\..\..\bin\opendds_idl on FaceMessage.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">FaceMessage_TS.cpp;FaceMessage_TS.hpp;FaceMessageC.h;FaceMessageTypeSupport.idl;FaceMessageTypeSupportImpl.cpp;FaceMessageTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;..\..\..\bin\opendds_idl -Sa -St -GfaceTS -Lface -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessage.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\..\..\bin\opendds_idl on FaceMessage.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">FaceMessage_TS.cpp;FaceMessage_TS.hpp;FaceMessageC.h;FaceMessageTypeSupport.idl;FaceMessageTypeSupportImpl.cpp;FaceMessageTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;..\..\..\bin\opendds_idl -Sa -St -GfaceTS -Lface -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessage.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\..\..\bin\opendds_idl on FaceMessage.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FaceMessage_TS.cpp;FaceMessage_TS.hpp;FaceMessageC.h;FaceMessageTypeSupport.idl;FaceMessageTypeSupportImpl.cpp;FaceMessageTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;..\..\..\bin\opendds_idl -Sa -St -GfaceTS -Lface -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessage.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\..\..\bin\opendds_idl on FaceMessage.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FaceMessage_TS.cpp;FaceMessage_TS.hpp;FaceMessageC.h;FaceMessageTypeSupport.idl;FaceMessageTypeSupportImpl.cpp;FaceMessageTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;..\..\..\bin\opendds_idl -Sa -St -GfaceTS -Lface -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessage.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Invoking "..\..\..\bin\opendds_idl on FaceMessage.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">FaceMessage_TS.cpp;FaceMessage_TS.hpp;FaceMessageC.h;FaceMessageTypeSupport.idl;FaceMessageTypeSupportImpl.cpp;FaceMessageTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;..\..\..\bin\opendds_idl -Sa -St -GfaceTS -Lface -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessage.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Invoking "..\..\..\bin\opendds_idl on FaceMessage.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">FaceMessage_TS.cpp;FaceMessage_TS.hpp;FaceMessageC.h;FaceMessageTypeSupport.idl;FaceMessageTypeSupportImpl.cpp;FaceMessageTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;..\..\..\bin\opendds_idl -Sa -St -GfaceTS -Lface -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessage.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Invoking "..\..\..\bin\opendds_idl on FaceMessage.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">FaceMessage_TS.cpp;FaceMessage_TS.hpp;FaceMessageC.h;FaceMessageTypeSupport.idl;FaceMessageTypeSupportImpl.cpp;FaceMessageTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;cmd /c &quot;..\..\..\bin\opendds_idl -Sa -St -GfaceTS -Lface -Wb,export_include=FaceMessenger_Export.h -Wb,export_macro=FaceMessenger_Export &quot;FaceMessage.idl&quot;&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">Invoking "..\..\..\bin\opendds_idl on FaceMessage.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">FaceMessage_TS.cpp;FaceMessage_TS.hpp;FaceMessageC.h;FaceMessageTypeSupport.idl;FaceMessageTypeSupportImpl.cpp;FaceMessageTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FaceMessageTypeSupportC.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

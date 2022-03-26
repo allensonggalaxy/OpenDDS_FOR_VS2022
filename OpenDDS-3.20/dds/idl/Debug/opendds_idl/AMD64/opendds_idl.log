@@ -1,0 +1,26 @@
+﻿  annotations.cpp
+  be_global.cpp
+  be_init.cpp
+  be_produce.cpp
+  be_util.cpp
+  dds_generator.cpp
+  dds_visitor.cpp
+  drv_args.cpp
+  drv_preproc.cpp
+  field_info.cpp
+  itl_generator.cpp
+  keys_generator.cpp
+  langmap_generator.cpp
+  marshal_generator.cpp
+  metaclass_generator.cpp
+  opendds_idl.cpp
+  topic_keys.cpp
+  ts_generator.cpp
+  typeobject_generator.cpp
+  v8_generator.cpp
+  正在生成代码...
+  正在编译...
+  value_reader_generator.cpp
+  value_writer_generator.cpp
+  正在生成代码...
+  opendds_idl.vcxproj -> C:\Users\Admin\Downloads\OpenDDS-3.20\bin\opendds_idl.exe
